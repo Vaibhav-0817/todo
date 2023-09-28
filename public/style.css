@@ -51,6 +51,7 @@ body
     position: relative;
     align-items: center;
     padding-right: 2rem;
+    word-break: break-all;
 }
 .notes>li.checked
 {

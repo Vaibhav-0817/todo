@@ -26,10 +26,10 @@ body
 {
   content: " ";
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  min-width: 20px;
+  min-height: 20px;
   border-radius: 50%;
-  margin-right: 5px;
+  margin-right: 0.8rem;
   background-image: url("https://cdn3.iconfinder.com/data/icons/arrows-160/96/uncheckedV_circle-512.png");
   background-size: cover;
   background-repeat: no-repeat;  
@@ -38,10 +38,10 @@ body
 {
   content: " ";
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  min-width: 20px;
+  min-height: 20px;
   border-radius: 50%;
-  margin-right: 5px;
+  margin-right: 0.8rem;
   background-image: url("https://www.nicepng.com/png/detail/443-4439064_blue-check-mark-icon-png-check-mark-circle.png");
   background-size: cover;
   background-repeat: no-repeat;  
@@ -50,6 +50,7 @@ body
     display: flex;
     position: relative;
     align-items: center;
+    padding-right: 2rem;
 }
 .notes>li.checked
 {
